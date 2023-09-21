@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Project Showcase</title>
+    <link rel="icon" type="image/x-icon" href="/assets/icon.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar start -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo.png" alt="Logo" width=240" height="60" class="d-inline-block align-text-top">
+
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="mecha.html"
+                    >Mechatronics Technology</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="auto.html"
+                    >Automobile Technology</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+    <!--Title-->
+    <div class="container-fluid">
+      <div class="row text-center">
+        <h3
+          style="
+            margin-top: 15px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
+              sans-serif;
+          "
+        >
+          Mechatronic Techology Projects
+        </h3>
+      </div>
+      <hr />
+    </div>
+
+    <div class="container-fluid" style="padding: 50px">
+      <div class="row">
+        <h3 class="projectName">8 LEG SPIDER ROBOT</h3>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-5">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/Ul_pF4BQgIc?si=bHQbb3RHQUGkrGbp"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="col-sm-12 col-lg-7" style="padding: 6px; margin: 0px">
+          <h4>INTRODUCTION:</h4>
+          <br />
+          <p class="projectDescription">
+            Theo Jansen is a renowned Dutch artist best known for his
+            Strandbeest (Dutch for beach animals). These kinetic sculptures are
+            designed to be a fusion of art and engineering. Inspired from nature
+            and bearing an uncanny resemblance to the movement of animals, these
+            mechanisms are built using an array of triangles and connecting
+            links that convert the rotation of an axle into the stepping motion
+            of six or more limbs. Moreover, since these mechanisms mimic the
+            movement of animals, they are far more efficient compared to wheels
+            when operating in sand and on rough terrain.<br />
+            Designed to mimic the movement of arachnids, this eight-legged
+            spider robot builds upon the ingenuity of the Theo Jansen Mechanism.
+            This system uses a dual motor setup paired to six gears which in
+            turn actuate the eight legs in synchrony. Its remote-control
+            operation enables the operator to control this robot wirelessly.
+            This system also has four 12v LED indicator lights on either side to
+            signal its direction of movement.
+          </p>
+        </div>
+        <p class="projectDescription">
+          The spider robot makes use of a kinematic motion that is run by theo
+          jansen linkages. This allows to turn the rotational motion of a DC
+          motor into a step motion that mimics animals. The robot makes use of 2
+          x DC motors o dive the mechanism. The motors are mounted on 2 opposite
+          sides of the robotic chassis or main frame. The drive produced by the
+          motors are used to drive a gear which in turn is connected to 2 more
+          hears. The 3 gears are used to drive a combination of 8 legs.<br />
+
+          The gear movement is converted into a stepping motion by making use of
+          jansen linkages. This linkage structure allows to provide all
+          direction motion to the combination of 8 legs. The robot can not only
+          move backward and forward but also turn in desired directions. The
+          spider controller is made using a microcontroller based circuitry. The
+          user makes use of a remote controller with 4 x Push buttons. The push
+          buttons when pressed send a particular direction command
+          wirelessly.<br />
+
+          The receiver controller mounted on robot receives this command and
+          sends it to microcontroller for processing. The microcontroller
+          receives this command and uses the motor drivers to power motors in
+          desired direction thus achieving forward backward left and right
+          direction movement of the spider robot.<br />
+        </p>
+        <h4>FEATURES</h4>
+        <ul style="margin-left: 20px">
+          <li>Uses Theo Jansen mechanism to mimic the motion of a spider</li>
+          <li>Wheel free Movement</li>
+          <li>Dual Motor Mechanism</li>
+          <li>Uses 6 Gears to actuate the 8 Legs</li>
+          <li>Wireless Remote-Controlled Operation</li>
+        </ul>
+        <h4>COMPONENTS</h4>
+        <ul style="margin-left: 20px">
+          <li>Atmega microcontroller</li>
+          <li>Mini LED Lights</li>
+          <li>Push Buttons</li>
+          <li>RF Transmitter Remote</li>
+          <li>DC Motors</li>
+          <li>Gears</li>
+          <li>Shafts and Couplings</li>
+          <li>Linkages and Joints</li>
+          <li>Bearings</li>
+          <li>Robot Chassis/Body</li>
+          <li>Spider Legs</li>
+          <li>Leg Joints</li>
+          <li>Screws and Bolts</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row justify-content-end">
+        <div class="col-12">
+          <p style="text-align: right">Web page by EGT/21/460</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link" href="mecha2.html" style="color: black"
+                >Previous</a
+              >
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="mecha.html" style="color: black">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="mecha2.html" style="color: black">2</a>
+            </li>
+            <li class="page-item">
+              <a
+                class="page-link active"
+                href="mecha3.html"
+                style="background-color: black"
+                >3</a
+              >
+            </li>
+            <li class="page-item disabled">
+              <a class="page-link" href="#" style="color: black">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!--footer-->
+    <div class="container-fluid bg-dark py-4 mt-4 mx-0" style="width: 100%">
+      <div class="row justify-content-around">
+        <div class="col-8 col-lg-4 text-center border-bottom border-danger">
+          <div class="row justify-content-around">
+            <img
+              style="display: block; width: 120"
+              src="assets/logo2.png"
+              sty
+            />
+            <p class="text-light">
+              University of Sri Jayewardenepura<br />
+              Faculty of Technology<br />
+              Gangodawila, Nugegoda, <br />Sri Lanka.
+            </p>
+            <p class="text-light">
+              +94 11 2758000, +94 11 2802022 <br />+94 11 2801024, +94 11
+              2801025
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-12 col-lg-4 border-bottom border-danger py-2 px-100 justify-content-center"
+        >
+          <div class="row justify-content-center">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  class="gmap_iframe"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://maps.google.com/maps?width=310&amp;height=242&amp;hl=en&amp;q=faculty of technology, universtiy of sri jayawaradanapura&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ></iframe
+                ><a href="https://connectionsgame.org/">Connections NYT</a>
+              </div>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  width: 310px;
+                  height: 242px;
+                }
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  width: 310px;
+                  height: 242px;
+                }
+                .gmap_iframe {
+                  width: 310px !important;
+                  height: 242px !important;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-danger text-center pt-4">
+        Copyright All Right Reserved @2023, University of Sri Jayewardenepura,
+        Sri Lanka.
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.popup{
+    transition: 0.3s;
+}
+.popup:hover {
+    background-color: #242424;
+    color: rgb(254, 254, 254);
+    height: 18px;
+}
+
+td{
+    padding: 4px;
+}
+
+.carouselLabelHeading{
+    background-color: rgba(2, 3, 3, 0.2);
+    display: inline;
+    padding: 4px;
+    padding-bottom: 0;
+    border-radius: 10%;
+    margin-bottom: 3px;
+}
+.carouselLabel{
+    background-color: rgba(2, 3, 3, 0.2);
+    display: inline;
+    padding: 4px;
+}
+.projectDescription{
+    text-align: justify;
+}
+P{
+    text-align: justify;
+}
+.projectName{
+    background-color: #242424;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:100%;
+    margin-left: 12px;
+}
+.customcard{
+    width: 18rem; 
+    background-color: rgb(249, 247, 247);
+    padding-top: 12px;
+    color: black;
+    transition: 0.3s;
+}
+.customcard:hover {
+    background-color: #242424;
+    color: rgb(254, 254, 254);
+    
+    
+}
